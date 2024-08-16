@@ -21,13 +21,12 @@ function Navbar() {
       <div className='w-full bg-red-600 text-white'>
         <div className="container mx-auto flex justify-between text-lg p-4">
 
-          <Link to='/home' className='text-2xl font-bold uppercase'>Far Marcia</Link>
+          <Link to='/home/' className='text-2xl font-bold uppercase'>Far Marcia</Link>
           
           <div className='flex gap-4'>
-          <Link to='/Listar' className='text-2xl font-bold uppercase'>Listar</Link>
-          <Link to='/Cadastrar' className='text-2xl font-bold uppercase'>Cadastrar</Link>
-          <Link to='/Atualizar' className='text-2xl font-bold uppercase'>Atualizar</Link>
-          <Link to='/Deletar' className='text-2xl font-bold uppercase'>Deletar</Link>
+          <Link to='/listaCategoria' className='text-2xl '>Listar</Link>
+          <Link to='/listaCategoria' className='text-2xl '>Atualizar</Link>
+          <Link to='/listaCategoria' className='text-2xl '>Deletar</Link>
 
 
 

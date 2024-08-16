@@ -21,7 +21,7 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/listaCategoria" element={<ListaCategorias />} />
               <Route path="/formCategoria" element={<FormularioCategoria />} />
-              <Route path="/editarCategoria/:id" element={<FormularioCategoria />} />
+              <Route path="/formCategoria/:id" element={<FormularioCategoria />} />
               <Route path="/deletarCategoria/:id" element={<DeletarCategoria />} />
             </Routes>
           </div>
